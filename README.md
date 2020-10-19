@@ -1,6 +1,6 @@
 # Huya scraper
 This repository contains my python implementation of a simple huya-web scraper. You can also find a Chinese versin of README [here](./README_CH.md)
-##Installation
+## Installation
 Please make sure the following modules are installed:
 
 selenium is used to automate the web browser (Firefox in this case)
@@ -19,7 +19,7 @@ sudo mv chi_sim.traineddata /usr/share/tesseract-ocr/4.00/tessdata/
 pip install pytesseract
 ```
 
-##To do
+## To do
 * gift retrieval
 * plot function
 * auto login
