@@ -58,7 +58,7 @@ class huya_info:
                 print("[贵宾数 : %s]"%self.vip_count)
             except:
                 print('直播未开始或房间连接失败')
-                break
+                time.sleep(500)
                     
 if __name__ == '__main__':
      huya = huya_info(room_id = '97796', msg = True)
